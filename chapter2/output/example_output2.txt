@@ -1,0 +1,6 @@
+; ModuleID = 'toy'
+
+define i32 @0() {
+entry:
+  ret i32 11
+}
