@@ -55,6 +55,7 @@ entry:
 ```
 
 ## 유의사항
+llvm-cookbook에 예시로 나온 입력 소스에 `,`가 없어야 합니다.
 ```diff
 -def foo (x, y)
 +def foo (x y)
