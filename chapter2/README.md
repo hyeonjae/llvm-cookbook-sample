@@ -6,7 +6,7 @@
 ## 빌드
 
 ```bash
-$ clang `llvm-config --cxxflags --ldflags --system-libs --libs core` toy.cpp -o toy
+$ clang++ `llvm-config --cxxflags --ldflags --system-libs --libs core` toy.cpp -o toy
 ```
 or
 ```bash
