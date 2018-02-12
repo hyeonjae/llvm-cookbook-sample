@@ -13,6 +13,8 @@ or
 $ ./build.sh clang++ ../llvm-3.7/build/llvm-config
 ```
 
+`clang++`과 `llvm-config`의 경로에 유의해주세요.
+
 ## 실행
 ```bash
 $ ./toy examples/example1.txt
